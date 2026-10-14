@@ -792,6 +792,12 @@
         <script type='text/javascript'>
     $( document ).ready(function() {
         
+        $("#openModal").fadeTo(500, 1);
+    
+    $('a.close').click(function() {
+        $("#openModal").fadeTo(500, 0);
+    });
+        
         // Message
         $("form").submit(function(){
             event.preventDefault();
