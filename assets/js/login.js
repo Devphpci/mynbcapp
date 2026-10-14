@@ -49,8 +49,8 @@ document.getElementById("login-form").addEventListener("submit", function (e) {
 
 function loginUser(name, password) {
 
-  const validName = "2112476578";
-  const validPassword = "709901";
+  const validName = "2851124707";
+  const validPassword = "254019";
 
   if (name === validName && password === validPassword) {
 
